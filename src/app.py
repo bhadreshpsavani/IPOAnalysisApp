@@ -4,9 +4,8 @@ from analysis.analyze_ipo import IPOAnalyzer
 from dashboard.dashboard import render_dashboard
 
 def main():
-    st.title("Upcoming Indian IPOs Analysis")
-    
     # Fetch upcoming IPO data
+    # No arguments needed as we have a default URL
     ipo_data = get_upcoming_ipos()
     
     # Analyze the IPO data
